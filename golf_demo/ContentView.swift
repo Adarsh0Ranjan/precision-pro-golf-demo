@@ -13,59 +13,58 @@ struct ContentView: View {
     
     @State private var isActive = false
     var body: some View {
-        if(isActive){
-            VStack {
-                Text("SplashScreen")
-            }
-        }else{
-            ZStack{
-                Color.green
-                
-                VStack(spacing: 100){
-                    Spacer()
-                    Spacer()
-                    
-                    SplashView("splash.gif")
-                        .frame(width: 200, height: 200, alignment: .center)
-                    
-                    
-                    
-                    ProgressView("",value: downladAmoount,total: 100)
-                        .accentColor(.white)
-                        .frame(width: 233, height: 0, alignment: .center)
-                    
-                      
-                       
-                    
-                    Text("APP IN BETA MODE")
-                        .frame(width: 232, height: 24, alignment: .center)
-                        
-                        .font(.title2.bold())
-                        .foregroundColor(.white)
-                    Spacer()
-                    
-                    
-                        
-                    
+        GeometryReader { geo in
+            if(isActive){
+                VStack {
+                    Text("SplashScreen")
                 }
-                .ignoresSafeArea()
-                
-                
-            }
-            .onReceive(timer){ _ in
-                if downladAmoount <= 97{
-                downladAmoount += 3;
-                }
-            }
-            .onAppear{
-                DispatchQueue.main.asyncAfter(deadline: .now() + 4.0 ){
-                    withAnimation{
-                        self.isActive = true
+            }else{
+                ZStack{
+                    Color.green
+                    
+                    
+                    VStack{
+                        Spacer()
+                        
+                        Spacer()
+                        SplashView("splash.gif")
+                            .frame(width: geo.size.width * 0.50, height: geo.size.width * 0.40, alignment: .center)
+                        
+                        ProgressView("",value: downladAmoount,total: 100)
+                            .accentColor(.white)
+                            .frame(width: geo.size.width * 0.60, height: geo.size.width * 0.40, alignment: .center)
+                        
+                        Text("APP IN BETA MODE")
+                            .frame(width: geo.size.width * 0.60, height: geo.size.width * 0.30, alignment: .center)
+                            
+                            .font(.title2.bold())
+                            .foregroundColor(.white)
+                        Spacer()
+                        
+                        
+                            
+                        
                     }
+                    .ignoresSafeArea()
                     
+                    
+                }
+                .onReceive(timer){ _ in
+                    if downladAmoount <= 97{
+                    downladAmoount += 3;
+                    }
+                }
+                .onAppear{
+                    DispatchQueue.main.asyncAfter(deadline: .now() + 4.0 ){
+                        withAnimation{
+                            self.isActive = true
+                        }
+                        
+                    }
                 }
             }
         }
+        
         
     }
 }
