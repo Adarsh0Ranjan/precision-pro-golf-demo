@@ -10,36 +10,34 @@ import SwiftUI
 struct landingScreen_1: View {
     var body: some View {
         VStack{
+            VStack{
             
-                VStack{
-                    Image("green_logo-1")
-                        .resizable()
-                        .scaledToFit()
-                        .frame(width: 150, height: 151)
-                        .padding(.top,162)
-                        
-                    Text("Welcome to")
-                        .padding(.top)
-                        .font(.title)
-            
-                      
-                       
-                    
-                    Text("View detailed course information, learn club distances, and measure progress so you can Hit More Greens.")
-                        Spacer()
-                   
-                        
-                 
-                }
-            
-            
-            }
+                Image("green_logo-1")
+                    .resizable()
+                    .scaledToFit()
+                    .frame(width: 200, height: 200, alignment: .center)
+                Text("""
+                    Welcome to
+                    Precision Pro Golf
+                """)
+                .frame(width: 200, height: 200, alignment: .leading)
+                    .multilineTextAlignment(.center)
+                    .font(.headline.bold())
+
+                Text("""
+                     View detailed course information, learn club distances, and measure progress so you can Hit More Greens.
+                     """)
+                .frame(width: 310, height: 100, alignment: .leading)
+                .multilineTextAlignment(.center)
                 
+                
+                
+            }
             
-         
-        
-        
+            
+        }
     }
+    
 }
 
 struct landing_Screen_1_Previews: PreviewProvider {

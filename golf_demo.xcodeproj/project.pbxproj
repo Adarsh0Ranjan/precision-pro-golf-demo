@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		417FD81D28D5DCE3005EA075 /* LandingScreen_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417FD81C28D5DCE3005EA075 /* LandingScreen_2.swift */; };
+		417FD81F28D5DCF3005EA075 /* LandingScreen_3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417FD81E28D5DCF3005EA075 /* LandingScreen_3.swift */; };
+		417FD82128D60059005EA075 /* LandingScreen_4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417FD82028D60059005EA075 /* LandingScreen_4.swift */; };
 		418081E228D40C8800A33546 /* LandingScreen_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418081E128D40C8800A33546 /* LandingScreen_1.swift */; };
 		41A6580128D2E538005CB28F /* golf_demoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A6580028D2E538005CB28F /* golf_demoApp.swift */; };
 		41A6580328D2E538005CB28F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A6580228D2E538005CB28F /* ContentView.swift */; };
@@ -17,6 +20,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		417FD81C28D5DCE3005EA075 /* LandingScreen_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingScreen_2.swift; sourceTree = "<group>"; };
+		417FD81E28D5DCF3005EA075 /* LandingScreen_3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingScreen_3.swift; sourceTree = "<group>"; };
+		417FD82028D60059005EA075 /* LandingScreen_4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingScreen_4.swift; sourceTree = "<group>"; };
 		418081E128D40C8800A33546 /* LandingScreen_1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingScreen_1.swift; sourceTree = "<group>"; };
 		41A657FD28D2E538005CB28F /* golf_demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = golf_demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41A6580028D2E538005CB28F /* golf_demoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = golf_demoApp.swift; sourceTree = "<group>"; };
@@ -59,6 +65,9 @@
 			children = (
 				41A6580028D2E538005CB28F /* golf_demoApp.swift */,
 				418081E128D40C8800A33546 /* LandingScreen_1.swift */,
+				417FD82028D60059005EA075 /* LandingScreen_4.swift */,
+				417FD81C28D5DCE3005EA075 /* LandingScreen_2.swift */,
+				417FD81E28D5DCF3005EA075 /* LandingScreen_3.swift */,
 				41A6580228D2E538005CB28F /* ContentView.swift */,
 				41A6585D28D36860005CB28F /* SplashView.swift */,
 				41A6586128D36D3B005CB28F /* splash.gif */,
@@ -148,7 +157,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				41A6580328D2E538005CB28F /* ContentView.swift in Sources */,
+				417FD81F28D5DCF3005EA075 /* LandingScreen_3.swift in Sources */,
+				417FD81D28D5DCE3005EA075 /* LandingScreen_2.swift in Sources */,
 				418081E228D40C8800A33546 /* LandingScreen_1.swift in Sources */,
+				417FD82128D60059005EA075 /* LandingScreen_4.swift in Sources */,
 				41A6585E28D36860005CB28F /* SplashView.swift in Sources */,
 				41A6580128D2E538005CB28F /* golf_demoApp.swift in Sources */,
 			);
