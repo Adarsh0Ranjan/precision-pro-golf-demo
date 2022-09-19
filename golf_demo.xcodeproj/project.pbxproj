@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		417D63E728D72BB100242561 /* LandingScreen_5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417D63E628D72BB100242561 /* LandingScreen_5.swift */; };
 		417FD81D28D5DCE3005EA075 /* LandingScreen_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417FD81C28D5DCE3005EA075 /* LandingScreen_2.swift */; };
 		417FD81F28D5DCF3005EA075 /* LandingScreen_3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417FD81E28D5DCF3005EA075 /* LandingScreen_3.swift */; };
 		417FD82128D60059005EA075 /* LandingScreen_4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417FD82028D60059005EA075 /* LandingScreen_4.swift */; };
@@ -17,9 +18,11 @@
 		41A6580828D2E539005CB28F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41A6580728D2E539005CB28F /* Preview Assets.xcassets */; };
 		41A6585E28D36860005CB28F /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A6585D28D36860005CB28F /* SplashView.swift */; };
 		41A6586228D36D3B005CB28F /* splash.gif in Resources */ = {isa = PBXBuildFile; fileRef = 41A6586128D36D3B005CB28F /* splash.gif */; };
+		41B2D5DE28D8305700C0825E /* Golf_screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B2D5DD28D8305700C0825E /* Golf_screen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		417D63E628D72BB100242561 /* LandingScreen_5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingScreen_5.swift; sourceTree = "<group>"; };
 		417FD81C28D5DCE3005EA075 /* LandingScreen_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingScreen_2.swift; sourceTree = "<group>"; };
 		417FD81E28D5DCF3005EA075 /* LandingScreen_3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingScreen_3.swift; sourceTree = "<group>"; };
 		417FD82028D60059005EA075 /* LandingScreen_4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingScreen_4.swift; sourceTree = "<group>"; };
@@ -31,6 +34,7 @@
 		41A6580728D2E539005CB28F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		41A6585D28D36860005CB28F /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
 		41A6586128D36D3B005CB28F /* splash.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = splash.gif; sourceTree = "<group>"; };
+		41B2D5DD28D8305700C0825E /* Golf_screen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Golf_screen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,11 +68,13 @@
 			isa = PBXGroup;
 			children = (
 				41A6580028D2E538005CB28F /* golf_demoApp.swift */,
+				41A6580228D2E538005CB28F /* ContentView.swift */,
 				418081E128D40C8800A33546 /* LandingScreen_1.swift */,
-				417FD82028D60059005EA075 /* LandingScreen_4.swift */,
+				41B2D5DD28D8305700C0825E /* Golf_screen.swift */,
 				417FD81C28D5DCE3005EA075 /* LandingScreen_2.swift */,
 				417FD81E28D5DCF3005EA075 /* LandingScreen_3.swift */,
-				41A6580228D2E538005CB28F /* ContentView.swift */,
+				417FD82028D60059005EA075 /* LandingScreen_4.swift */,
+				417D63E628D72BB100242561 /* LandingScreen_5.swift */,
 				41A6585D28D36860005CB28F /* SplashView.swift */,
 				41A6586128D36D3B005CB28F /* splash.gif */,
 				41A6580428D2E539005CB28F /* Assets.xcassets */,
@@ -157,6 +163,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				41A6580328D2E538005CB28F /* ContentView.swift in Sources */,
+				417D63E728D72BB100242561 /* LandingScreen_5.swift in Sources */,
+				41B2D5DE28D8305700C0825E /* Golf_screen.swift in Sources */,
 				417FD81F28D5DCF3005EA075 /* LandingScreen_3.swift in Sources */,
 				417FD81D28D5DCE3005EA075 /* LandingScreen_2.swift in Sources */,
 				418081E228D40C8800A33546 /* LandingScreen_1.swift in Sources */,
