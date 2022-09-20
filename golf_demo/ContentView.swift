@@ -12,11 +12,12 @@ struct ContentView: View {
     let timer = Timer.publish(every: 0.1  , on: .main, in: .common).autoconnect()
     
     @State private var isActive = false
+    @State private var showingGolfView = false;
     var body: some View {
-       
-            if(isActive){
+        if(showingGolfView){
+            tabView()
+        }else if(isActive){
                 GeometryReader {  geo in
-                    
                     TabView{
                         landingScreen_1()
                         LandingScreen_2()
@@ -30,23 +31,20 @@ struct ContentView: View {
                     }
                     .frame(width: geo.size.width, height: geo.size.height*0.70)
                     
-                    
-                    
                     Button{
-
-                        
+                        showingGolfView.toggle()
                     }label: {
-                    Text("GET STARTED")
-                        .frame(width: geo.size.width*0.70, height: geo.size.height*0.05)
-                        .font(.system(size: 18))
-                        .padding()
-                        .foregroundColor(.white)
-                        .overlay(
-                            RoundedRectangle(cornerRadius: 15)
-                                .stroke(Color.white, lineWidth: 1)
+                        Text("GET STARTED")
+                            .frame(width: geo.size.width*0.70, height: geo.size.height*0.05)
+                            .font(.system(size: 18))
+                            .padding()
+                            .foregroundColor(.white)
+                            .overlay(
+                                RoundedRectangle(cornerRadius: 15)
+                                    .stroke(Color.white, lineWidth: 1)
                         )
                     }
-                    .background(Color.green) // If you have this
+                    .background(CustomColor.nasty_green) // If you have this
                     .cornerRadius(15)
                     .position(x: geo.size.width*0.50, y: geo.size.height*0.80)
 
@@ -113,7 +111,7 @@ struct ContentView: View {
         UIPageControl.appearance().pageIndicatorTintColor = UIColor.black.withAlphaComponent(0.2)
       }
 
- 
+    
 
 
 

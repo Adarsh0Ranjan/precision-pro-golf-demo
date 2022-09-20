@@ -1,0 +1,15 @@
+//
+//  CustomColor.swift
+//  golf_demo
+//
+//  Created by Roro Solutions on 20/09/22.
+//
+
+import Foundation
+import SwiftUI
+struct CustomColor {
+    static let nasty_green = Color("nasty_green")
+    static let screenBg = Color("screenBg")
+    static let textColor = Color("textColor")
+    
+}

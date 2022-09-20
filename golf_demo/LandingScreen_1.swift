@@ -36,9 +36,9 @@ struct landingScreen_1: View {
 
 struct landing_Screen_1_Previews: PreviewProvider {
     static var previews: some View {
-        Group {
+        
             landingScreen_1()
-            landingScreen_1()
-        }
+            
+        
     }
 }
