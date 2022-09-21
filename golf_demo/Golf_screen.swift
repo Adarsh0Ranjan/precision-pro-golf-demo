@@ -10,7 +10,9 @@ struct Golf_screen: View {
     var body: some View {
         GeometryReader{ geo in
             Text("WHERE ARE YOU PLAYING")
+                .bold()
                 .frame(width: geo.size.width, height: geo.size.height*0.03, alignment: .center)
+                .font(.system(size: geo.size.width*0.05))
                 .position(x: geo.size.width*0.5, y: geo.size.height*0.2)
             
             Group{
@@ -41,6 +43,8 @@ struct Golf_screen: View {
                     .position(x: geo.size.width*0.12, y: geo.size.height*0.4)
                 
                 Text("Devices")
+                    .frame(width: geo.size.width*0.2, height: geo.size.height*0.2, alignment: .center)
+                    .font(.system(size: geo.size.width*0.05))
                     .position(x: geo.size.width*0.25, y: geo.size.height*0.4)
                     .foregroundColor(.gray)
             }
@@ -64,6 +68,14 @@ struct Golf_screen: View {
                     .font(.system(size: geo.size.width*0.05))
                     .frame(width:geo.size.width*0.3, height: geo.size.height*0.11, alignment: .center)
                     .position(x: geo.size.width*0.48, y: geo.size.height*0.48)
+                
+                
+               
+                Text("No Connection")
+                    .foregroundColor(CustomColor.caption_color)
+                    .frame(width: geo.size.width*0.3, height: geo.size.height*0.1, alignment: .center)
+                    .font(.system(size: 09))
+                    .position(x: geo.size.width*0.8, y: geo.size.height*0.515)
             }
             
             Group{
@@ -75,15 +87,26 @@ struct Golf_screen: View {
                 
                 Image("s1_graphic")
                     .resizable()
-                .scaledToFit()
-                .frame(width: geo.size.width*0.2, height: geo.size.height*0.11, alignment: .center)
-                .position(x: geo.size.width*0.25, y: geo.size.height*0.62)
+                    .scaledToFit()
+                    .frame(width: geo.size.width*0.2, height: geo.size.height*0.11, alignment: .center)
+                    .position(x: geo.size.width*0.25, y: geo.size.height*0.62)
                 
                 Text("S1 Smart")
                     .bold()
                     .font(.system(size: geo.size.width*0.05))
                     .frame(width:geo.size.width*0.3, height: geo.size.height*0.11, alignment: .center)
                     .position(x: geo.size.width*0.48, y: geo.size.height*0.61)
+                
+                Image("bluetooth_not_connected")
+                    .resizable()
+                    .scaledToFit()
+                    .frame(width: geo.size.width*0.1, height: geo.size.height*0.1, alignment: .center)
+                    .position(x: geo.size.width*0.8, y: geo.size.height*0.605)
+                Text("No Connection")
+                    .foregroundColor(CustomColor.caption_color)
+                    .frame(width: geo.size.width*0.3, height: geo.size.height*0.1, alignment: .center)
+                    .font(.system(size: 09))
+                    .position(x: geo.size.width*0.8, y: geo.size.height*0.645)
             }
             
             Group{

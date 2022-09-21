@@ -11,5 +11,6 @@ struct CustomColor {
     static let nasty_green = Color("nasty_green")
     static let screenBg = Color("screenBg")
     static let textColor = Color("textColor")
+    static let caption_color = Color("caption_color")
     
 }
