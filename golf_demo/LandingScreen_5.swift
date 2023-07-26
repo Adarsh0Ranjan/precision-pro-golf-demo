@@ -21,16 +21,16 @@ struct LandingScreen_5: View {
                 .multilineTextAlignment(.center)
                 .frame(width: geo.size.width*0.8,height: geo.size.height*0.20)
                 .position(x: geo.size.width*0.5, y: geo.size.height*0.60)
-                .font(.custom(CustomFonts.priximaNovaBold, size: geo.size.height*0.05))
-                .foregroundColor(CustomColor.textColor)
+                .font(.title2.bold())
+                .font(.system(size: geo.size.height*0.04))
             
     
             Text("Owe one of our Smart Rangefinders or Speakers? Link uour device to app here.")
                 .multilineTextAlignment(.center)
-                .font(.custom(CustomFonts.proximaNovaSemiBold, size: geo.size.width*0.035))
-                .foregroundColor(CustomColor.detailColor)
+                .font(.system(size: geo.size.height*0.03))
+                .foregroundColor(.gray)
                 .frame(width: geo.size.width*0.8,height: geo.size.height*0.20)
-                .position(x: geo.size.width*0.5, y: geo.size.height*0.75)
+                .position(x: geo.size.width*0.5, y: geo.size.height*0.80)
         }
     }
 }

@@ -7,16 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		414D84E128DC7AE3005E00DE /* ProximaNova-Semibold-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 417FADFF28DC4BE600BE97CC /* ProximaNova-Semibold-Italic.ttf */; };
 		417D63E728D72BB100242561 /* LandingScreen_5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417D63E628D72BB100242561 /* LandingScreen_5.swift */; };
-		417FADF128DBE98D00BE97CC /* CustomFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417FADF028DBE98D00BE97CC /* CustomFonts.swift */; };
-		417FADF628DC42C200BE97CC /* ProximaNova-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 417FADF528DC429500BE97CC /* ProximaNova-Black.ttf */; };
-		417FADF828DC4BD200BE97CC /* ProximaNova-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 417FADF728DC4BD200BE97CC /* ProximaNova-Bold.ttf */; };
-		417FADFA28DC4BD800BE97CC /* ProximaNova-Extrabld.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 417FADF928DC4BD800BE97CC /* ProximaNova-Extrabld.ttf */; };
-		417FADFC28DC4BDC00BE97CC /* ProximaNova-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 417FADFB28DC4BDC00BE97CC /* ProximaNova-Light.ttf */; };
-		417FADFE28DC4BE100BE97CC /* ProximaNova-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 417FADFD28DC4BE100BE97CC /* ProximaNova-Regular.ttf */; };
-		417FAE0228DC4BED00BE97CC /* ProximaNova-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 417FAE0128DC4BED00BE97CC /* ProximaNova-Semibold.ttf */; };
-		417FAE0428DC4BF300BE97CC /* ProximaNovaT-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 417FAE0328DC4BF300BE97CC /* ProximaNovaT-Thin.ttf */; };
 		417FD81D28D5DCE3005EA075 /* LandingScreen_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417FD81C28D5DCE3005EA075 /* LandingScreen_2.swift */; };
 		417FD81F28D5DCF3005EA075 /* LandingScreen_3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417FD81E28D5DCF3005EA075 /* LandingScreen_3.swift */; };
 		417FD82128D60059005EA075 /* LandingScreen_4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417FD82028D60059005EA075 /* LandingScreen_4.swift */; };
@@ -38,21 +29,12 @@
 
 /* Begin PBXFileReference section */
 		417D63E628D72BB100242561 /* LandingScreen_5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingScreen_5.swift; sourceTree = "<group>"; };
-		417FADF028DBE98D00BE97CC /* CustomFonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFonts.swift; sourceTree = "<group>"; };
-		417FADF528DC429500BE97CC /* ProximaNova-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Black.ttf"; sourceTree = "<group>"; };
-		417FADF728DC4BD200BE97CC /* ProximaNova-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Bold.ttf"; sourceTree = "<group>"; };
-		417FADF928DC4BD800BE97CC /* ProximaNova-Extrabld.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Extrabld.ttf"; sourceTree = "<group>"; };
-		417FADFB28DC4BDC00BE97CC /* ProximaNova-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Light.ttf"; sourceTree = "<group>"; };
-		417FADFD28DC4BE100BE97CC /* ProximaNova-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Regular.ttf"; sourceTree = "<group>"; };
-		417FADFF28DC4BE600BE97CC /* ProximaNova-Semibold-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Semibold-Italic.ttf"; sourceTree = "<group>"; };
-		417FAE0128DC4BED00BE97CC /* ProximaNova-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Semibold.ttf"; sourceTree = "<group>"; };
-		417FAE0328DC4BF300BE97CC /* ProximaNovaT-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNovaT-Thin.ttf"; sourceTree = "<group>"; };
 		417FD81C28D5DCE3005EA075 /* LandingScreen_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingScreen_2.swift; sourceTree = "<group>"; };
 		417FD81E28D5DCF3005EA075 /* LandingScreen_3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingScreen_3.swift; sourceTree = "<group>"; };
 		417FD82028D60059005EA075 /* LandingScreen_4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingScreen_4.swift; sourceTree = "<group>"; };
 		418081E128D40C8800A33546 /* LandingScreen_1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingScreen_1.swift; sourceTree = "<group>"; };
 		41819E9C28D9D0F80051AF05 /* Devices_screen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Devices_screen.swift; sourceTree = "<group>"; };
-		41819E9E28D9D1240051AF05 /* tabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tabView.swift; sourceTree = "<group>"; tabWidth = 5; };
+		41819E9E28D9D1240051AF05 /* tabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tabView.swift; sourceTree = "<group>"; };
 		4190C35428D98B23006BEAA2 /* CustomColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomColor.swift; sourceTree = "<group>"; };
 		41A657FD28D2E538005CB28F /* golf_demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = golf_demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41A6580028D2E538005CB28F /* golf_demoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = golf_demoApp.swift; sourceTree = "<group>"; };
@@ -78,21 +60,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		417FADF428DC427E00BE97CC /* Fonts */ = {
-			isa = PBXGroup;
-			children = (
-				417FAE0128DC4BED00BE97CC /* ProximaNova-Semibold.ttf */,
-				417FAE0328DC4BF300BE97CC /* ProximaNovaT-Thin.ttf */,
-				417FADFF28DC4BE600BE97CC /* ProximaNova-Semibold-Italic.ttf */,
-				417FADFD28DC4BE100BE97CC /* ProximaNova-Regular.ttf */,
-				417FADFB28DC4BDC00BE97CC /* ProximaNova-Light.ttf */,
-				417FADF928DC4BD800BE97CC /* ProximaNova-Extrabld.ttf */,
-				417FADF728DC4BD200BE97CC /* ProximaNova-Bold.ttf */,
-				417FADF528DC429500BE97CC /* ProximaNova-Black.ttf */,
-			);
-			path = Fonts;
-			sourceTree = "<group>";
-		};
 		41A657F428D2E538005CB28F = {
 			isa = PBXGroup;
 			children = (
@@ -114,23 +81,21 @@
 			children = (
 				41A6580028D2E538005CB28F /* golf_demoApp.swift */,
 				41A6580228D2E538005CB28F /* ContentView.swift */,
-				41A6585D28D36860005CB28F /* SplashView.swift */,
 				418081E128D40C8800A33546 /* LandingScreen_1.swift */,
 				417FD81C28D5DCE3005EA075 /* LandingScreen_2.swift */,
 				417FD81E28D5DCF3005EA075 /* LandingScreen_3.swift */,
 				417FD82028D60059005EA075 /* LandingScreen_4.swift */,
 				417D63E628D72BB100242561 /* LandingScreen_5.swift */,
+				41A6585D28D36860005CB28F /* SplashView.swift */,
 				41B915C328DAB5390078D5B9 /* StatsView.swift */,
 				41B915C528DAB5480078D5B9 /* ClubsView.swift */,
 				41B915C728DAB55F0078D5B9 /* Score.swift */,
-				41819E9E28D9D1240051AF05 /* tabView.swift */,
 				41B2D5DD28D8305700C0825E /* Golf_screen.swift */,
 				41819E9C28D9D0F80051AF05 /* Devices_screen.swift */,
+				41819E9E28D9D1240051AF05 /* tabView.swift */,
+				4190C35428D98B23006BEAA2 /* CustomColor.swift */,
 				41A6586128D36D3B005CB28F /* splash.gif */,
 				41A6580428D2E539005CB28F /* Assets.xcassets */,
-				4190C35428D98B23006BEAA2 /* CustomColor.swift */,
-				417FADF028DBE98D00BE97CC /* CustomFonts.swift */,
-				417FADF428DC427E00BE97CC /* Fonts */,
 				41A6580628D2E539005CB28F /* Preview Content */,
 			);
 			path = golf_demo;
@@ -203,16 +168,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				41A6580828D2E539005CB28F /* Preview Assets.xcassets in Resources */,
-				417FADFC28DC4BDC00BE97CC /* ProximaNova-Light.ttf in Resources */,
-				417FAE0428DC4BF300BE97CC /* ProximaNovaT-Thin.ttf in Resources */,
-				417FAE0228DC4BED00BE97CC /* ProximaNova-Semibold.ttf in Resources */,
 				41A6586228D36D3B005CB28F /* splash.gif in Resources */,
 				41A6580528D2E539005CB28F /* Assets.xcassets in Resources */,
-				417FADF628DC42C200BE97CC /* ProximaNova-Black.ttf in Resources */,
-				417FADF828DC4BD200BE97CC /* ProximaNova-Bold.ttf in Resources */,
-				417FADFE28DC4BE100BE97CC /* ProximaNova-Regular.ttf in Resources */,
-				414D84E128DC7AE3005E00DE /* ProximaNova-Semibold-Italic.ttf in Resources */,
-				417FADFA28DC4BD800BE97CC /* ProximaNova-Extrabld.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,7 +181,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				41A6580328D2E538005CB28F /* ContentView.swift in Sources */,
-				417FADF128DBE98D00BE97CC /* CustomFonts.swift in Sources */,
 				41819E9D28D9D0F80051AF05 /* Devices_screen.swift in Sources */,
 				41B915C628DAB5480078D5B9 /* ClubsView.swift in Sources */,
 				417D63E728D72BB100242561 /* LandingScreen_5.swift in Sources */,
@@ -370,9 +326,6 @@
 				DEVELOPMENT_TEAM = 9RNHKLVM64;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "golf-demo-Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "";
-				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -402,9 +355,6 @@
 				DEVELOPMENT_TEAM = 9RNHKLVM64;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "golf-demo-Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "";
-				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

@@ -12,7 +12,5 @@ struct CustomColor {
     static let screenBg = Color("screenBg")
     static let textColor = Color("textColor")
     static let caption_color = Color("caption_color")
-    static let  ShadowColor = Color("ShadowColor")
-    static let detailColor = Color("detailColor")
-    static let tabViewColor = Color("tabViewColor")
+    
 }
