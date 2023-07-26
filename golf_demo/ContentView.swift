@@ -36,7 +36,7 @@ struct ContentView: View {
                     }label: {
                         Text("GET STARTED")
                             .frame(width: geo.size.width*0.70, height: geo.size.height*0.05)
-                            .font(.system(size: 18))
+                            .font(.custom(CustomFonts.priximaNovaBold ,size: geo.size.width*0.034))
                             .padding()
                             .foregroundColor(.white)
                             .overlay(
@@ -50,14 +50,16 @@ struct ContentView: View {
 
                     Text("No Email Requried")
                         .foregroundColor(.gray)
-                        .font(.footnote.italic())
-                        .position(x: geo.size.width*0.50, y: geo.size.height*0.87)
+                        .bold()
+                        .font(.caption.italic())
+                        .position(x: geo.size.width*0.50, y: geo.size.height*0.86)
                     
                     Button(){
-                        
+                        //
                     }label: {
                         Text("LOG IN")
                             .foregroundColor(.gray)
+                            .underline()
                             .font(.caption)
                             .padding()
                      }
@@ -67,7 +69,7 @@ struct ContentView: View {
             }else{
                 GeometryReader { geo in
                 
-                    Color.green
+                    CustomColor.nasty_green
                     SplashView("splash.gif")
                         .frame(width: geo.size.width * 0.40, height: geo.size.width * 0.40, alignment: .center)
                         .position(x: geo.size.width * 0.50, y: geo.size.height * 0.50)
@@ -80,8 +82,7 @@ struct ContentView: View {
                     Text("APP IN BETA MODE")
                         .frame(width: geo.size.width * 0.60, height: geo.size.width * 0.40, alignment: .center)
                         .position(x: geo.size.width * 0.50, y: geo.size.height * 0.80)
-
-                        .font(.title2.bold())
+                        .font(.custom(CustomFonts.priximaNovaBold, size: geo.size.height*0.02))
                         .foregroundColor(.white)
                 }
                 .ignoresSafeArea()

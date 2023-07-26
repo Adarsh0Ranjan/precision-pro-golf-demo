@@ -13,17 +13,16 @@ struct Devices_screen: View {
         GeometryReader { geo in
             CustomColor.screenBg
             Group{
-                Text("Devices")
+                Text("DEVICES")
                     .foregroundColor(CustomColor.textColor)
-                    .bold()
-                    .font(.system(size: geo.size.height*0.023))
+                    .font(.custom(CustomFonts.priximaNovaBold, size: geo.size.height*0.023))
+                    
                     .frame(width: geo.size.width*0.5, height: geo.size.height*0.03, alignment: .center)
                     .position(x: geo.size.width*0.5, y: geo.size.height*0.1)
             }
             Group{
-                RoundedRectangle(cornerRadius: 15)
+                RoundedRectangle(cornerRadius: 20)
                     .fill(.white)
-                    .shadow(radius: 15)
                     .frame(width: geo.size.width*0.8, height: geo.size.height*0.3, alignment: .center)
                     .position(x: geo.size.width*0.5, y: geo.size.height*0.3)
                 Image("r_1_logo")
@@ -39,35 +38,31 @@ struct Devices_screen: View {
                 Text("100%")
                     .bold()
                     .foregroundColor(CustomColor.nasty_green)
-                    .font(.system(size: geo.size.height*0.01))
+                    .font(.custom(CustomFonts.proximaNovaSemiBold, size: geo.size.width*0.0292))
                     .frame(width: geo.size.width*0.07, height: geo.size.width*0.07, alignment: .center)
                     .position(x: geo.size.width*0.83, y: geo.size.height*0.163)
                 Image("battery_connected")
-                    
                     .resizable()
                     .scaledToFit()
                     .frame(width: geo.size.width*0.07, height: geo.size.width*0.07, alignment: .center)
                     .position(x: geo.size.width*0.83, y: geo.size.height*0.18)
-                
-                
+        
                 Text("R1 Smart Rangefinder")
                     .foregroundColor(CustomColor.textColor)
-                    .bold()
                     .frame(width: geo.size.width*0.5, height: geo.size.height*0.03, alignment: .center)
-                    .font(.system(size: geo.size.height*0.023))
+                    .font(.custom(CustomFonts.priximaNovaBold, size: geo.size.height*0.023))
                     .position(x: geo.size.width*0.5, y: geo.size.height*0.38)
                 
                 Text("Connected")
                     .foregroundColor(CustomColor.nasty_green)
                     .frame(width: geo.size.width*0.5, height: geo.size.height*0.03, alignment: .center)
-                    .font(.system(size: geo.size.height*0.02))
+                    .font(.custom(CustomFonts.proximaNovaSemiBold, size: geo.size.height*0.02))
                     .position(x: geo.size.width*0.5, y: geo.size.height*0.41)
                 
             }
             Group{
                 RoundedRectangle(cornerRadius: 15)
                     .fill(.white)
-                    .shadow(radius: 15)
                     .frame(width: geo.size.width*0.8, height: geo.size.height*0.3, alignment: .center)
                     .position(x: geo.size.width*0.5, y: geo.size.height*0.63)
                 Image("speaker_stock")
@@ -83,7 +78,7 @@ struct Devices_screen: View {
                 Text("100%")
                     .bold()
                     .foregroundColor(CustomColor.nasty_green)
-                    .font(.system(size: geo.size.height*0.01))
+                    .font(.custom(CustomFonts.proximaNovaSemiBold, size: geo.size.width*0.0292))
                     .frame(width: geo.size.width*0.07, height: geo.size.width*0.07, alignment: .center)
                     .position(x: geo.size.width*0.83, y: geo.size.height*0.5)
                 
@@ -96,15 +91,15 @@ struct Devices_screen: View {
                 
                 Text("S1 Smart Speaker")
                     .foregroundColor(CustomColor.textColor)
-                    .bold()
+                    
                     .frame(width: geo.size.width*0.5, height: geo.size.height*0.08, alignment: .center)
-                    .font(.system(size: geo.size.height*0.023))
+                    .font(.custom(CustomFonts.priximaNovaBold, size: geo.size.height*0.023))
                     .position(x: geo.size.width*0.5, y: geo.size.height*0.72)
                 
                 Text("Connected")
                     .foregroundColor(CustomColor.nasty_green)
                     .frame(width: geo.size.width*0.5, height: geo.size.height*0.03, alignment: .center)
-                    .font(.system(size: geo.size.height*0.02))
+                    .font(.custom(CustomFonts.proximaNovaSemiBold, size: geo.size.height*0.02))
                     .position(x: geo.size.width*0.5, y: geo.size.height*0.746)
             }
         }

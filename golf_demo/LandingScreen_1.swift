@@ -20,15 +20,18 @@ struct landingScreen_1: View {
                 .multilineTextAlignment(.center)
                 .frame(width: geo.size.width*0.8,height: geo.size.height*0.20)
                 .position(x: geo.size.width*0.5, y: geo.size.height*0.60)
-                .font(.title2.bold())
-                .font(.system(size: geo.size.height*0.04))
+                .font(.custom(CustomFonts.priximaNovaBold, size: geo.size.height*0.05))
+                .foregroundColor(CustomColor.textColor)
         
                 Text("View detailed course information, learn club distances, and measure progress so you can Hit More Greens.")
                 .multilineTextAlignment(.center)
-            .font(.system(size: geo.size.height*0.03))
-            .foregroundColor(.gray)
-            .frame(width: geo.size.width*0.8,height: geo.size.height*0.20)
-            .position(x: geo.size.width*0.5, y: geo.size.height*0.80)
+                
+            
+            .frame(width: geo.size.width*0.8,height:
+                    geo.size.height*0.20)
+            .font(.custom(CustomFonts.proximaNovaSemiBold, size: geo.size.width*0.035))
+            .foregroundColor(CustomColor.detailColor)
+            .position(x: geo.size.width*0.5, y: geo.size.height*0.75)
             
         }
     }
